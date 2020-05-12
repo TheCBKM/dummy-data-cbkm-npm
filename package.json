@@ -1,0 +1,23 @@
+{
+  "name": "dummy-data-cbkm",
+  "version": "1.0.1",
+  "description": "get dummy data like name paragraphs,word,scentences,name,images,banners,placeholders",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dummy-data-cbkm",
+    "dummydata",
+    "dummy-data",
+    "cbkm",
+    "lorem-ipsum",
+    "lorem-picsum"
+  ],
+  "author": "cbkm",
+  "git repository":"https://github.com/TheCBKM/dummy-data-cbkm-npm",
+  "license": "MIT",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3"
+  }
+}

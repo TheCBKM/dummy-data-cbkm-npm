@@ -28,7 +28,7 @@ For development, you will only need Node.js and a node global package, NPM, inst
 
 
 
-getParagraphs(count?< +  integer > , array?< bool >) 
+####  getParagraphs (count?< +  integer > , array?< bool >) 
 
 returns :- lorem-ipsum paragraphs of specified count (default=1) & in form of array (true or false)
 
@@ -36,7 +36,7 @@ returns :- lorem-ipsum paragraphs of specified count (default=1) & in form of ar
 ---
 
 
-getSentences(count?< + integer > , array?< bool >) 
+#### getSentences (count?< + integer > , array?< bool >) 
 
 returns :- lorem-ipsum sentences of specified count (default=1) & in form of array (true or false)
 
@@ -44,7 +44,7 @@ returns :- lorem-ipsum sentences of specified count (default=1) & in form of arr
 
 
 
-getWords(count?<+  integer > , array?< bool >) 
+#### getWords (count?<+  integer > , array?< bool >) 
 
 returns :- lorem-ipsum words of specified count (default=1) & in form of array (true or false)
 
@@ -54,7 +54,7 @@ returns :- lorem-ipsum words of specified count (default=1) & in form of array (
 
 ### Some Advance functions
 
-getNames(count?< + integer > , gender?< char > , array?< bool > , join < char >)
+#### getNames (count?< + integer > , gender?< char > , array?< bool > , join < char >)
 
 |parameter|defaults  |options|
 |--|--| -- |
@@ -67,7 +67,7 @@ getNames(count?< + integer > , gender?< char > , array?< bool > , join < char >)
 ---
 
 
-getPicLink(width?<+  integer> , height?<+  integer> , count?<+  integer> , array?< bool > ,  join < char >)
+#### getPicLink (width?<+  integer> , height?<+  integer> , count?<+  integer> , array?< bool > ,  join < char >)
 
 
 |parameter|defaults  |options|
@@ -81,7 +81,7 @@ getPicLink(width?<+  integer> , height?<+  integer> , count?<+  integer> , array
 
 ---
 
-getPlacholderLink(count?< integer > ,  params? < json >  , array?< bool > ,  join < char >)
+#### getPlacholderLink (count?< integer > ,  params? < json >  , array?< bool > ,  join < char >)
 
 
 
@@ -99,7 +99,7 @@ getPlacholderLink(count?< integer > ,  params? < json >  , array?< bool > ,  joi
 
 ---
 
-getProfileLink(count?< integer > ,  gender? < char >  , array?< bool > ,  join < char >)
+#### getProfileLink( count?< integer > ,  gender? < char >  , array?< bool > ,  join < char >)
 
 
 
@@ -115,50 +115,49 @@ parameter|defaults  |options|
 ---
 
 
-coustom( body?< json > )
+#### coustom ( body?< json > )
 
 It can only be discovered by the following example 
 
-    
-   ` body = { `
-   `"paragraphs": {`
-     ` "type": "paragraph",`
-   ` "option": {`
-      `  "max": 16,`
-      `  "min": 4`
- `     }`
-  `  },`
-  `  "sentence": {`
-     ` "type": "sentence",`
-  `    "option": {`
-      `  "max": 8,`
-     `   "min": 4`
-  `    }`
- `   },`
-   ` "word": "word",`
-   ` "name": {`
-     ` "type": "name",`
-   `   "option": {`
-    `    "gender": "m"`
- `     }`
- `   },`
-  `  "phone": "phone",`
- `   "pic": {`
-   `   "type": "pic",`
-   `   "option": {`
-       ` "width": 300,`
-     `   "height": 400`
-   `   }`
-  `  },`
- `   "number": {`
-     ` "type": "number",`
-     ` "option": {`
-    `    "max": 10000,`
-      `  "min": 100`
-  `    }`
-  `  },`
-  `  "bool": "bool"`
-`  }`
+  `{
+    "paragraphs": {
+      "type": "paragraph",
+      "option": {
+        "max": 16,
+        "min": 4
+      }
+    },
+    "sentence": {
+      "type": "sentence",
+      "option": {
+        "max": 8,
+        "min": 4
+      }
+    },
+    "word": "word",
+    "name": {
+      "type": "name",
+      "option": {
+        "gender": "m"
+      }
+    },
+    "phone": "phone",
+    "pic": {
+      "type": "pic",
+      "option": {
+        "width": 300,
+        "height": 400
+      }
+    },
+    "number": {
+      "type": "number",
+      "option": {
+        "max": 10000,
+        "min": 100
+      }
+    },
+    "bool": "bool"
+  }`
 
 
 

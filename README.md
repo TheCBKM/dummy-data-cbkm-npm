@@ -81,7 +81,7 @@ returns :- lorem-ipsum words of specified count (default=1) & in form of array (
 
 ---
 
-#### getPlacholderLink (count?< integer > ,  params? < json >  , array?< bool > ,  join < char >)
+#### getPlacholderLink (count?< + integer > ,  params? < json >  , array?< bool > ,  join < char >)
 
 
 
@@ -99,7 +99,7 @@ returns :- lorem-ipsum words of specified count (default=1) & in form of array (
 
 ---
 
-#### getProfileLink( count?< integer > ,  gender? < char >  , array?< bool > ,  join < char >)
+#### getProfileLink( count?< + integer > ,  gender? < char >  , array?< bool > ,  join < char >)
 
 
 
